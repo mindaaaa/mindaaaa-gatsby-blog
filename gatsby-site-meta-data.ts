@@ -2,11 +2,10 @@ export default {
   /**
    * basic Information
    */
-  title: `jeong-min.com`,
-  description: `개발자 단민`,
+  title: `mindaaaa-gatsby.netlify.app`,
+  description: `개발자 민다`,
   language: `ko`,
-  siteUrl: `https://jeong-min.com/`,
-  ogImage: `/og-image.png`, // Path to your in the 'static' folder
+  siteUrl: `https://mindaaaa-gatsby.netlify.app/`,
 
   /**
    * comments setting
@@ -21,22 +20,18 @@ export default {
    * introduce yourself
    */
   author: {
-    name: `이정민`,
-    nickname: `단민`,
+    name: `민다`,
+    nickname: `mindaaaa`,
     stack: ['Frontend', 'React', 'Typescript'],
     bio: {
-      email: `ljm991108@gmail.com`,
-      residence: 'Seoul, South Korea',
-      bachelorDegree: 'Kyunghee Univ. Computer Engineering (2018.03-2022.02)',
+      email: `avalc@naver.com`,
+      residence: 'Pyeongtaek, South Korea',
     },
     social: {
-      github: `https://github.com/danmin20`,
-      linkedIn: `https://www.linkedin.com/in/jeonming-lee/`,
-      resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC%9D%B4%EC%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
+      github: `https://github.com/mindaaaa`,
     },
     dropdown: {
-      tistory: 'https://danminblog.tistory.com/',
-      velog: 'https://velog.io/@danmin20',
+      tistory: 'https://404minda.tistory.com/',
     },
   },
 
@@ -45,42 +40,12 @@ export default {
    */
   featured: [
     {
-      title: 'category1',
-      category: 'featured-category1',
+      title: 'TypeScript 학습 기록',
+      category: 'featured-typescript',
     },
     {
-      title: 'category2',
-      category: 'featured-category2',
-    },
-  ],
-
-  /**
-   * metadata for About Page
-   */
-  timestamps: [
-    {
-      category: 'Career',
-      date: '2022.01.04 - NOW',
-      en: 'A Corp.',
-      kr: 'A 회사',
-      info: 'A 팀',
-      link: '',
-    },
-    {
-      category: 'Career',
-      date: '2021.01.04 - 2022.01.04',
-      en: 'B Corp.',
-      kr: 'B 회사',
-      info: 'B 팀',
-      link: '',
-    },
-    {
-      category: 'Activity',
-      date: '2023.07 - NOW',
-      en: 'Community',
-      kr: '커뮤니티',
-      info: 'IT 커뮤니티',
-      link: '',
+      title: 'React 프로젝트',
+      category: 'featured-react',
     },
   ],
 
@@ -89,30 +54,28 @@ export default {
    */
   projects: [
     {
-      title: 'Portfolio',
-      description: '포트폴리오',
-      techStack: ['React', 'Next.js', 'Typescript'],
-      thumbnailUrl: '', // Path to your in the 'assets' folder
+      title: '랜덤 색상 생성기',
+      description: 'TypeScript와 Vue로 제작한 프로젝트',
+      techStack: ['Vue', 'TypeScript', 'CSS'],
+      thumbnailUrl: '', // assets 폴더에 넣고 경로 설정
       links: {
         post: '',
-        github: '',
-        demo: '',
+        github: 'https://github.com/mindaaaa/random-color-changer',
+        demo: 'https://mindaaaa-demo.netlify.app',
         googlePlay: '',
         appStore: '',
       },
     },
+    {
+      title: '투두리스트 앱',
+      description: 'React와 TypeScript로 만든 투두리스트',
+      techStack: ['React', 'TypeScript', 'SCSS'],
+      thumbnailUrl: '',
+      links: {
+        post: '',
+        github: 'https://github.com/mindaaaa/todo-app',
+        demo: '',
+      },
+    },
   ],
-
-  /**
-   * metadata for Buy Me A Coffee
-   */
-  remittances: {
-    toss: {
-      link: 'https://toss.me/danmin',
-      qrCode: 'toss_qr.svg', // Path to your in the 'assets' folder
-    },
-    kakaopay: {
-      qrCode: 'kakao_qr.svg', // Path to your in the 'assets' folder
-    },
-  },
 };
